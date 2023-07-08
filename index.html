@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/b52ce431d0.js" crossorigin="anonymous"></script>
+    <style>
+        .headersection {
+            padding-top: 0%;
+            background-image: url(1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 78.75rem;
+            width: 100%;
+        }
+
+        .headertext h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 35rem;
+            font-size: 3.25rem;
+            color: rgb(253, 253, 253);
+            padding-left: 6.25rem;
+            padding-top: 20rem;
+        }
+        @media(max-width:1050px){
+        .headertext h1 { font-size: 20px;
+            height: 200px;
+        }
+        }
+        @media(max-width:900px){
+        .headertext h1 { font-size: 20px;
+            height: 200px;
+            padding-top: 0%;
+        }
+    }
+        @media(max-width:900px){
+        .headertext h2 { font-size: 150px;
+            margin-top: 100px;
+        }
+    }
+
+        .headertext h2 {
+            color: rgb(253, 253, 253);
+
+            font-size: 1.875rem;
+            padding-left: 6.25rem;
+            padding-right: 35rem;
+
+        }
+
+        .contact {
+            font-size: 2.875rem;
+            background-color: lightgray;
+            height: 18rem;
+            text-align: center;
+            padding-top: 6.5rem;
+            padding: 2.5rem;
+        }
+
+        .button1 {
+            padding: 1.3rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            border: none;
+        }
+
+        .button1:hover {
+            background-color: rgb(144, 144, 228);
+            color: white;
+            cursor: pointer;
+        }
+
+        .headingworkingsection {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        .firstpart {
+
+            padding: 5.25rem;
+            line-height: 1.5rem;
+        }
+
+        .firstpart h1 {
+            padding-left: 0;
+        }
+
+        .items {
+            display: flex;
+        }
+
+        .icon {
+            align-items: center;
+            border-radius: 1rem;
+            background-color: aqua;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 2rem;
+            height: 4rem;
+            margin-top: 1.75rem;
+        }
+
+        .picture {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding: 1.25rem;
+            row-gap: 0;
+        }
+
+        .countmain {
+            color: white;
+            background-color: rgb(234, 167, 65);
+            height: 28.75rem;
+            padding-top: 8.125rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        .counter {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .contitems {
+            color: black;
+            background-color: aliceblue;
+            width: 50%;
+            text-align: center;
+            border-radius: 1rem;
+        }
+
+        .contitems h1 {
+            color: rgb(18, 223, 73);
+
+        }
+
+        .conttext {
+            padding: 3.125rem;
+        }
+
+        .main {
+            background-color: cornflowerblue;
+            height: 35rem;
+        }
+
+        .main img {
+            padding-top: 6.25rem;
+        }
+
+        .main button {
+            padding: 1.3rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            border: none;
+        }
+
+        .main button:hover {
+            background-color: rgb(20, 241, 71);
+            color: white;
+            cursor: pointer;
+        }
+
+        .footer {
+            display: flex;
+            padding: 3.125rem;
+        }
+
+        .footer img {
+            border-radius: 200px 200px;
+        }
+
+        @media(max-width:1150px) {
+            .picture {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media(max-width:1050px) {
+            .headingworkingsection {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media(max-width:1050px) {
+            .countmain {
+                display: grid;
+                grid-template-columns: 1fr;
+                height: 900px;
+            }
+        }
+
+        @media(max-width:900px) {
+            .footer {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media(max-width:900px) {
+            .contact {
+                height: 700px;
+            }
+        }
+
+        @media(max-width:1050) {
+            .headersection {
+                height: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- start head section -->
+    <div class="headersection">
+        <div class="headertext">
+            <h1>
+                HELLO! <br>
+
+                I AM A FRONTEND DEWELPER <br> YOU NEED ANY HELP THEN CONTACT ME
+            </h1>
+            
+            <h2>I am not a begginner .I also work in two software house so can get a chance on me i hope you never
+                disappointed after this decision.
+                <br><br><br>
+
+                <div style="color: black;">
+                    <box-icon name='phone-call' type='solid' color='black'></box-icon>
+                    +92-300-970-4690
+                </div>
+            </h2>
+        </div>
+    </div>
+    <!--end head section  -->
+    <!-- contact section -->
+    <div class="contact">
+        <p>DO YOU NEED PROFESSIONAL WEB DEWELPER FOR YOUR NEW PROJECT </p>
+
+        <button class="button1">CONTACT US</button>
+    </div>
+    <!-- end contact section -->
+    <!-- section working -->
+    <h1 style="color: navy; text-align: center;">METHOD OF WORKING</h1>
+    <div class="headingworkingsection">
+
+        <div class="firstpart">
+            <h1>About</h1>
+            <p>
+            <h2>It's our rules of working.</h2> <br>
+            They are our rules that apply on our every project. we don't work to skip any rule becauce This is the
+            best way of working.With help of this method we can the performance of every person .
+            </p>
+            <h3>
+                He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up
+                repeated moreover.
+            </h3>
+        </div>
+        <div class="secondpart">
+            <div class="items">
+                <div class="icon">
+                    <box-icon name='mobile-alt' color='#0e0e0e'></box-icon>
+                </div>
+                <div style="padding-left: 1.25rem; padding:3.25rem; padding-top: 0;">
+
+                    <h1>
+                        Research
+                    </h1>
+                    <p>IN This step we get the information about the project with the different web sites .And we try to
+                        get the latest information and features we apply in our project the clint has no problem occure
+                        infuture.</p>
+                </div>
+            </div>
+
+
+            <div class="items">
+                <div class="icon">
+                    <box-icon name='podcast'></box-icon>
+                </div>
+                <div style="padding-left: 1.25rem; padding:3.25rem; padding-top: 0;">
+
+                    <h1>
+                        Statergy
+                    </h1>
+                    <p>IN This step we get the information about the project with the different web sites .And we try to
+                        get the latest information and features we apply in our project the clint has no problem occure
+                        infuture.</p>
+
+                </div>
+            </div>
+
+
+
+            <div class="items">
+                <div class="icon">
+                    <box-icon type='logo' name='kubernetes'></box-icon>
+                </div>
+                <div style="padding-left: 1.25rem; padding:3.25rem; padding-top: 0;">
+
+                    <h1>
+                        DESIGN
+                    </h1>
+                    <p>IN This step we get the information about the project with the different web sites .And we try to
+                        get the latest information and features we apply in our project the clint has no problem occure
+                        infuture.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end section working-->
+
+    <!-- image section -->
+    <div class="images">
+        <h1 style="text-align: center;">Image Gallery Last Year</h1>
+        <div class="picture">
+            <img src="1st.avif" alt="" height="40%" width="auto">
+            <img src="2nd.avif" alt="" height="40%" width="auto">
+            <img src="3rd.avif" alt="" height="40%" width="auto">
+            <img src="4th.avif" alt="" height="40%" width="auto">
+
+
+        </div>
+    </div>
+    <!-- end image section -->
+
+    <!-- counter section -->
+    <div class="countmain">
+        <div class="conttext">
+            <h1>We've helped businesses increase their revenue on average by 90% in their first year with Help of Our
+                Atractive Website!</h1>
+            <p>It's the best apportunity for the client to make good and efficent web sites for our bussines Because in
+                future all the bussines are conver online so it is the requirement of any bussinessman to convert our
+                work on online. </p>
+        </div>
+        <div class="counter">
+            <div class="contitems">
+                <h1>5k</h1>
+                <p>Loyal Custumer</p>
+            </div>
+            <div class="contitems">
+                <h1>60+</h1>
+                <p>Efficent speialists</p>
+            </div>
+            <div class="contitems">
+                <h1>100+</h1>
+                <p> Complete project</p>
+            </div>
+            <div class="contitems">
+                <h1>1240+</h1>
+                <p>clients</p>
+            </div>
+        </div>
+    </div>
+    <!-- end counter section -->
+    <!--  startend section -->
+    <div class="main">
+        <center>
+            <img src="en.jpg" alt="" height="220.5rem" width="220.5rem">
+            <h1>
+
+
+
+                "Do you want to start a new bussiness . We invited you to make a online bussines."
+            </h1>
+            <button>
+                READ MORE
+            </button>
+        </center>
+    </div>
+
+    <!--  end section end -->
+    <!-- footer -->
+    <div class="footer">
+        <div style="padding: 50px;">
+            <center>
+                <h1>Contact</h1>
+                <img src="1.jpg" alt="" height="80.25rem" width="80.25rem">
+                <p>Use our contact form for all information requests or contact us directly using the contact
+                    information
+                    below.
+                    <br>
+                    Feel free to get in touch with us via email or phone
+
+                </p>
+            </center>
+        </div>
+        <div style="padding: 30px;">
+            <h2>Sign in for the new </h2>
+            <p>Want to be the first to read our news? Subscribe to the newsletter to keep abreast of all events.
+
+            </p>
+            <input type="text" placeholder="log in" style="padding: 10px;">
+            <button type="submit">SUBMIT</button>
+        </div>
+    </div>
+    <!-- footer -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
